@@ -1,0 +1,1 @@
+ffmpeg -threads 0 -re -loop 1 -r 2 -t 0 -f image2 -i ./res/bg/oreshura-08-0.jpg -i ./res/music/豚乙女 - NAIMAZE.mp3 -pix_fmt yuv420p -preset ultrafast -maxrate 3000k -acodec copy -c:v h264 -f flv rtmp://bvc.live-send.acg.tv/live-bvc/?streamname=live_4771349_2961092&key=61f46bce8ebb78d30dfaba6de0e572f3

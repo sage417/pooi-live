@@ -1,0 +1,28 @@
+{
+  "name": "bili-live-raspberry",
+  "version": "1.0.0",
+  "description": "bili-live-raspberry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bili",
+    "live",
+    "respberry"
+  ],
+  "author": "J.K SAGE",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.0.1",
+    "log": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
